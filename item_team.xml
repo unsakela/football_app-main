@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Team Name" />
+
+    <TextView
+        android:id="@+id/winsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wins: " />
+
+    <TextView
+        android:id="@+id/drawsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Draws: " />
+
+    <TextView
+        android:id="@+id/lossesTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Losses: " />
+</LinearLayout>

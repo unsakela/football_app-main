@@ -1,0 +1,137 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Team A -->
+        <ImageView
+            android:id="@+id/teamAImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/team_a_image"
+            android:contentDescription="Team A Image"/>
+
+        <TextView
+            android:id="@+id/teamA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Team A: Wins: 10, Draws: 5, Losses: 2"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonTeamA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More Info" />
+
+        <!-- Team B -->
+        <ImageView
+            android:id="@+id/teamBImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/team_b_image"
+            android:contentDescription="Team B Image"/>
+
+        <TextView
+            android:id="@+id/teamB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Team B: Wins: 8, Draws: 6, Losses: 3"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonTeamB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More Info" />
+
+        <!-- Team C -->
+        <ImageView
+            android:id="@+id/teamCImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/team_c_image"
+            android:contentDescription="Team C Image"/>
+
+        <TextView
+            android:id="@+id/teamC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Team C: Wins: 12, Draws: 3, Losses: 4"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonTeamC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More Info" />
+
+        <!-- Player Messi -->
+        <ImageView
+            android:id="@+id/messiImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/messi_image"
+            android:contentDescription="Messi Image"/>
+
+        <TextView
+            android:id="@+id/messiStats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Messi: Goals: 700, Assists: 300"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonMessi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More Info" />
+
+        <!-- Player Ronaldo -->
+        <ImageView
+            android:id="@+id/ronaldoImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/ronaldo_image"
+            android:contentDescription="Ronaldo Image"/>
+
+        <TextView
+            android:id="@+id/ronaldoStats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ronaldo: Goals: 750, Assists: 220"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonRonaldo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More Info" />
+        <!-- Player Mbappé -->
+        <ImageView
+            android:id="@+id/mbappeImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/mbappe_image"
+            android:contentDescription="Mbappé Image"/>
+
+        <TextView
+            android:id="@+id/mbappeStats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mbappé: Goals: 200, Assists: 100"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonMbappe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More Info" />
+    </LinearLayout>
+</ScrollView>
